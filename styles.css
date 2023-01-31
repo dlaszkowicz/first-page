@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  margin: 0px;
+}
+
+.header {
+  background-color: #1f2937;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+ul {
+  display: flex;
+}
+.headerlinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  font-size: 18px;
+  color: #e5e7eb;
+  list-style: none;
+  gap: 30px;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 20px;
+  margin: 0px 0px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.informations {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  align-self: center;
+  margin: 30px;
+}
+.container3 {
+  display: flex;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+}
+.quote {
+  margin: 100px;
+  background-color: #e5e7eb;
+  padding: 100px;
+  width: 100%;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 200;
+  text-align: center;
+  align-self: center;
+}
+.author {
+  text-align: right;
+  padding: 0px 60px;
+  margin-top: 20px;
+}
+.text {
+  font-weight: 200;
+}
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 30px 50px;
+  color: #f9faf8;
+  gap: 40px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.action {
+  font-size: 18px;
+  font-weight: 600;
+}
+.subtext1 {
+  font-size: 14px;
+}
+.squared1,
+.squared2,
+.squared3,
+.squared4 {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.btn1 {
+  border-color: #3882f6;
+}
+.btn2 {
+  border-color: white;
+}
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  margin-bottom: 0px;
+  padding: 10px;
+}
